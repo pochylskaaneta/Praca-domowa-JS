@@ -1,0 +1,99 @@
+body
+{
+    background-color: grey;
+    font-family: Verdana;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo
+{
+    background-color: darkolivegreen;
+    text-align: center;
+    padding: 15px;
+    min-height: 100px;
+}
+#navi
+{
+    background-color: darkslategrey;
+    float: left;
+    width: 160px;
+    min-height: 600px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog
+{
+    background-color: darkslategrey;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 160px;
+    padding: 5px;
+}
+.blog:hover
+{
+    background-color: brown;
+    cursor: pointer;
+}
+
+#content
+{
+    background-color: cornsilk;
+    float: left;
+    padding: 20px;
+    width: 600px;
+    min-height: 580px;
+}
+#menu
+{
+    background-color: darksalmon;
+    float: left;
+    padding: 10px;
+    width: 160px;
+    min-height: 600px;
+    font-weight: bold;
+}
+
+.login
+{
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 160px;
+    padding: 5px; 
+}
+.login:hover
+{
+        background-color: brown;
+        cursor: pointer;
+}
+a:link
+{
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 160px;
+    padding: 5px;
+}
+a:visited
+{
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 160px;
+    padding: 5px;
+}
+
+#footer
+{
+    background-color: darkolivegreen;
+    clear: both;
+    padding: 10px;
+    width: 1000px;
+    min-height: 60px;
+    text-align: center;
+    font-weight: bold;
+}
